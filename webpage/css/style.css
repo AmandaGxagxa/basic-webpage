@@ -14,16 +14,23 @@ li{
   padding:-1px;
 }
 .me{
-  margin-right: 200px;
+  margin-left: 80px;
 }
 h3{
-  /* margin-left:70px; */
+  margin-left:70px;
   color: purple;
   font-weight: bold;
 }
+.myname{
+  background-color: orange;
+  float: left;
+  text-align: center;
+  border-radius: 25%;
+  margin-top: 25px;
+}
 img{
   height: 200px;
-  width:160px;
+  width:200px;
   border-radius: 10px;
   margin: 10px;
 }
@@ -50,17 +57,30 @@ img{
   /* margin-right: 8px; */
 }
 .header{
-  background-color: orange;
+
   border-radius: 75px;
   margin-top: 20px
 }
  .me{
-   margin-left: 100px;
+   width: 220px;
+   border-radius: 50%;
+   float: right;
+   margin-left: 40%;
+   margin-right: 50%;
+}
+.myname{
+  width: 100%;
+  background-color: orange;
+  /* float: left; */
+  text-align: center;
+  border-radius: 25%;
+  margin-top: 25px;
 }
 h3{
 
   color:purple;
   margin-top: 25px;
+  margin-left: 30px;
 }
 h5{
   color: maroon;
