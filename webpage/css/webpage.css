@@ -1,0 +1,117 @@
+
+*{
+  margin: auto;
+}
+body{
+  width: 96%;
+  background-color: orange;
+
+}
+img{
+  width: 200px;
+  height: 200px;
+  border-radius: 25%;
+  margin: 5px;
+}
+div{
+  width: 100%;
+
+}
+.church{
+  float: right;
+}
+.myname{
+  background-color: orange;
+  float: left;
+  text-align: center;
+  border-radius: 25%;
+  margin-top: 25px;
+}
+table{
+  width:100%;
+}
+.mall{
+  float: right;
+}
+.london{
+  float: left;
+}
+.container{
+
+}
+h2{
+color:purple;
+text-decoration: underline;
+margin: 10px;
+}
+h1{
+  margin-bottom: auto;
+}
+/* .mycity::after{
+  content: "";
+  display:table;
+  clear:both;
+} */
+.myimage{
+
+  border-radius: 25%;
+}
+h3{
+  color:purple;
+font-style: italic;
+font-size: 30px;
+
+}
+.lang{
+  margin-bottom: 20px;
+}
+.rsaP{
+  float: left;
+}
+table{
+  border-collapse:
+}
+.foreign, th, td {
+    border: 1px solid black;
+}
+
+@media  screen and (min-width: 768px) {
+
+  body{
+    background-color: grey;
+    width: 80%;
+  }
+
+  h2{
+    color:orange;
+  }
+.lang{
+  margin-top: 30px;
+}
+.mycity{
+  margin-bottom: 7em;
+}
+  .myimage{
+
+    border-radius: 70%;
+}
+
+  h3{
+     font-size: 40px;
+    }
+  .language{
+    margin-top: 3em;
+  }
+  .rsaP{
+    float: left;
+  }
+div{
+  margin-top: 1em;
+}
+  .place{
+    vertical-align: top;
+    margin: 1em;
+    width:29%;
+    display: inline-block;
+  }
+}

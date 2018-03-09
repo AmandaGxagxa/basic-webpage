@@ -1,0 +1,74 @@
+*{
+  margin:0 auto;
+}
+html, body{
+
+background-color: Orange;
+}
+h5{
+  font-weight: bolder;
+  color: maroon;
+  padding: 10px;
+}
+li{
+  padding:-1px;
+}
+.me{
+  margin-right: 200px;
+}
+h3{
+  /* margin-left:70px; */
+  color: purple;
+  font-weight: bold;
+}
+img{
+  height: 200px;
+  width:160px;
+  border-radius: 10px;
+  margin: 10px;
+}
+ .columns img{
+  float: left;
+}
+.lond{
+  float: left;
+}
+.header{
+  margin-bottom: 10px;
+}
+
+@media (min-width: 750px) {
+  html,body{
+    background-color: grey;
+  }
+
+.church{
+  float: left;
+}
+img{
+  width: 200px;
+  /* margin-right: 8px; */
+}
+.header{
+  background-color: orange;
+  border-radius: 75px;
+  margin-top: 20px
+}
+ .me{
+   margin-left: 100px;
+}
+h3{
+
+  color:purple;
+  margin-top: 25px;
+}
+h5{
+  color: maroon;
+  font-weight: bolder;
+}
+.one{
+  text-align: center;
+}
+}
+
+/* Larger than d
